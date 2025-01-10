@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.example</groupId>
+    <groupId>com.xavki</groupId> <!-- Updated from com.example to com.xavki -->
     <artifactId>helloworld-app</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -54,7 +54,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.example.HelloWorld</mainClass> <!-- Assurez-vous que le nom et le chemin sont corrects -->
+                            <mainClass>com.xavki.HelloWorld</mainClass> <!-- Corrected to the actual package and class -->
                         </manifest>
                     </archive>
                 </configuration>
